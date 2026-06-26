@@ -1,5 +1,3 @@
-'use client';
-
 import { motion } from 'framer-motion';
 import { Award, Heart, Leaf, Star } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
