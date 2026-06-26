@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Award, Heart, Leaf, Star } from 'lucide-react';
+import Image from 'next/image';
 
 export default function AboutPage() {
   return (
@@ -29,7 +30,7 @@ export default function AboutPage() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="glass p-2 rounded-[2rem] relative"
           >
-            <img src="https://res.cloudinary.com/dw0l7b86h/image/upload/v1781538196/IMG-20260615-WA0031_apsxwp.jpg" alt="Our culinary approach" className="rounded-[1.5rem] w-full aspect-square md:aspect-[4/5] object-cover" />
+            <Image  src="https://res.cloudinary.com/dw0l7b86h/image/upload/v1781538196/IMG-20260615-WA0031_apsxwp.jpg" alt="Our culinary approach" className="rounded-[1.5rem] w-full aspect-square md:aspect-[4/5] object-cover" />
           </motion.div>
 
           <motion.div 
@@ -38,7 +39,7 @@ export default function AboutPage() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="glass p-2 rounded-[2rem] relative"
           >
-            <img src="https://res.cloudinary.com/dw0l7b86h/image/upload/v1781538197/IMG-20260615-WA0032_lndxzt.jpg" alt="mr . benkiz" className="rounded-[1.5rem] w-full aspect-square md:aspect-[4/5] object-cover" />
+            <Image  src="https://res.cloudinary.com/dw0l7b86h/image/upload/v1781538197/IMG-20260615-WA0032_lndxzt.jpg" alt="mr . benkiz" className="rounded-[1.5rem] w-full aspect-square md:aspect-[4/5] object-cover" />
           </motion.div>
 
           <motion.div 
@@ -47,7 +48,7 @@ export default function AboutPage() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="glass p-2 rounded-[2rem] relative"
           >
-            <img src="https://res.cloudinary.com/dw0l7b86h/image/upload/v1781538191/IMG-20260615-WA0030_yvzm4a.jpg" alt="mr . benkiz" className="rounded-[1.5rem] w-full aspect-square md:aspect-[4/5] object-cover" />
+            <Image  src="https://res.cloudinary.com/dw0l7b86h/image/upload/v1781538191/IMG-20260615-WA0030_yvzm4a.jpg" alt="mr . benkiz" className="rounded-[1.5rem] w-full aspect-square md:aspect-[4/5] object-cover" />
           </motion.div>
           <motion.div 
             initial={{ opacity: 0, scale: 0.95 }}
@@ -55,7 +56,7 @@ export default function AboutPage() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="glass p-2 rounded-[2rem] relative"
           >
-            <img src="https://res.cloudinary.com/dw0l7b86h/image/upload/v1782392526/IMG-20230607-WA0006_hydiuh.jpg" alt="mr . benkiz" className="rounded-[1.5rem] w-full aspect-square md:aspect-[4/5] object-cover" />
+            <Image  src="https://res.cloudinary.com/dw0l7b86h/image/upload/v1782392526/IMG-20230607-WA0006_hydiuh.jpg" alt="mr . benkiz" className="rounded-[1.5rem] w-full aspect-square md:aspect-[4/5] object-cover" />
           </motion.div>
         </div>
       </section>
