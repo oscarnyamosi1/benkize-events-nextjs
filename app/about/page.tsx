@@ -23,7 +23,33 @@ export default function AboutPage() {
                 Elevating <br /><span className="text-muted-foreground italic">African</span> Cuisine
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Founded in 2015, Benkiz Caterers began with a singular vision: to present the complex, diverse flavors of the African continent with the refinement and precision of contemporary fine dining.
+                Benkiz Caterers is one of the leading catering companies in Kisii, renowned for delivering exceptional culinary experiences that combine authentic African flavors with modern international cuisine. Whether you're searching for a professional chef in Kisii, premium catering services, or complete event catering solutions, Benkiz Caterers is committed to making every occasion memorable through outstanding food, elegant presentation, and impeccable service.
+
+From intimate family gatherings to grand weddings, corporate functions, graduations, birthdays, conferences, and private celebrations, our experienced chefs and hospitality team create customized menus that suit every taste, culture, and budget. Every dish is prepared using fresh, carefully selected ingredients to ensure exceptional flavor, quality, and presentation.
+
+At Benkiz Caterers, we believe that great food is at the heart of every successful event. Our team works closely with clients from planning to execution, ensuring every detail is handled professionally and every guest enjoys a five-star dining experience. Our dedication to consistency, hygiene, punctuality, and customer satisfaction has earned us a strong reputation among individuals, businesses, institutions, and organizations throughout Kisii County and beyond.
+
+Whether you need a private chef, wedding catering, buffet catering, outdoor catering, corporate catering, event planning support, or full-service catering for large events, Benkiz Caterers provides reliable solutions tailored to your needs. We pride ourselves on delivering not just meals, but unforgettable experiences that leave lasting impressions.
+
+Our passion for excellence, creativity in menu design, and commitment to outstanding hospitality continue to make Benkiz Caterers a preferred choice for catering services in Kisii. Every event we serve reflects our promise of quality, professionalism, and attention to detail.
+
+Why Choose Benkiz Caterers?
+Professional chefs with extensive culinary expertise.
+Premium wedding, corporate, and event catering services.
+Authentic African cuisine alongside continental and international dishes.
+Fresh, high-quality ingredients sourced with care.
+Elegant buffet setups and food presentation.
+Reliable, punctual, and professional service.
+Customized menus for every event and budget.
+Exceptional customer experience from consultation to event completion.
+Trusted by families, businesses, schools, churches, and organizations across Kisii.
+Our Vision
+
+To be the most trusted and preferred catering company in Kisii and across Kenya, recognized for culinary excellence, innovation, and exceptional customer service.
+
+Our Mission
+
+To create memorable dining experiences by providing delicious food, professional chefs, outstanding hospitality, and world-class catering services that exceed our clients' expectations.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 We don&apos;t just cook food; we curate experiences. From the sourcing of authentic spices to the final exquisite plating, every step is guided by a deep respect for our heritage and a passion for hospitality.
