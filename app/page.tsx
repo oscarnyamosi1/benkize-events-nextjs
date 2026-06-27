@@ -60,24 +60,24 @@ export default function HomePage() {
         <section className="py-24 relative">
           <div className="container mx-auto px-4 md:px-6">
             <div className="grid md:grid-cols-2 gap-16 items-center">
-              <motion.div
-                initial={{ opacity: 0, x: -30 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8 }}
+              <div
+                // initial={{ opacity: 0, x: -30 }}
+                // whileInView={{ opacity: 1, x: 0 }}
+                // viewport={{ once: true }}
+                // transition={{ duration: 0.8 }}
                 className="relative"
               >
                 <div className="aspect-[4/5] rounded-3xl overflow-hidden glass-card-round p-2 relative z-10">
                   <img src="https://res.cloudinary.com/dw0l7b86h/image/upload/v1781538241/IMG-20260615-WA0094_tlw8hr.jpg" alt="Fine dining table" className="w-full h-full object-cover rounded-[calc(var(--radius)+4px)]" />
                 </div>
                 <div className="absolute -bottom-8 -right-8 w-64 h-64 bg-primary/20 rounded-full blur-3xl -z-10" />
-              </motion.div>
+              </div>
 
-              <motion.div
-                initial={{ opacity: 0, x: 30 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8 }}
+              <div
+                // initial={{ opacity: 0, x: 30 }}
+                // whileInView={{ opacity: 1, x: 0 }}
+                // viewport={{ once: true }}
+                // transition={{ duration: 0.8 }}
                 className="space-y-6"
               >
                 <h2 className="font-serif text-4xl md:text-5xl">The Art of <br /><span className="text-primary italic">Hospitality</span></h2>
@@ -90,7 +90,7 @@ export default function HomePage() {
                 <Button variant="link" className="px-0 group text-foreground font-medium" asChild>
                   <Link href="/about">Read Our Story <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" /></Link>
                 </Button>
-              </motion.div>
+              </div>
             </div>
           </div>
         </section>
@@ -105,12 +105,12 @@ export default function HomePage() {
 
             <div className="grid md:grid-cols-3 gap-8">
               {SERVICES.map((service, i) => (
-                <motion.div
+                <div
                   key={service.title}
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: i * 0.1 }}
+                  // initial={{ opacity: 0, y: 30 }}
+                  // whileInView={{ opacity: 1, y: 0 }}
+                  // viewport={{ once: true }}
+                  // transition={{ duration: 0.5, delay: i * 0.1 }}
                   className="group relative"
                 >
                   <div className="glass-card overflow-hidden rounded-3xl h-full flex flex-col">
@@ -125,7 +125,7 @@ export default function HomePage() {
                       </Link>
                     </div>
                   </div>
-                </motion.div>
+                </div>
               ))}
             </div>
           </div>
@@ -145,13 +145,12 @@ export default function HomePage() {
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {MENU_ITEMS.slice(0, 4).map((item, i) => (
-                <motion.div
+              {MENU_ITEMS.slice(0, 4).map((item, i) => (<div
                   key={item.name}
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: i * 0.1 }}
+                  // initial={{ opacity: 0, scale: 0.95 }}
+                  // whileInView={{ opacity: 1, scale: 1 }}
+                  // viewport={{ once: true }}
+                  // transition={{ duration: 0.5, delay: i * 0.1 }}
                   className="glass-card p-4 rounded-3xl flex flex-col group cursor-pointer"
                 >
                   <div className="aspect-square rounded-2xl overflow-hidden mb-4">
@@ -161,7 +160,7 @@ export default function HomePage() {
                     <span className="text-xs font-medium text-primary uppercase tracking-wider mb-2 block">{item.category}</span>
                     <h4 className="font-serif text-lg leading-tight">{item.name}</h4>
                   </div>
-                </motion.div>
+                </div>
               ))}
             </div>
           </div>
@@ -171,10 +170,10 @@ export default function HomePage() {
         <section className="py-24 relative overflow-hidden">
           <div className="absolute inset-0 bg-primary/10" />
           <div className="container mx-auto px-4 md:px-6 relative z-10 text-center">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+            <div
+              // initial={{ opacity: 0, y: 20 }}
+              // whileInView={{ opacity: 1, y: 0 }}
+              // viewport={{ once: true }}
               className="glass max-w-3xl mx-auto p-12 md:p-16 rounded-[3rem]"
             >
               <h2 className="font-serif text-4xl md:text-5xl mb-6">Ready to Host?</h2>
@@ -184,7 +183,7 @@ export default function HomePage() {
               <Button size="lg" className="rounded-full px-10 h-14 text-lg" asChild>
                 <Link href="/booking">Request a Quote</Link>
               </Button>
-            </motion.div>
+            </div>
           </div>
         </section>
       </div>

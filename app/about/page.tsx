@@ -1,3 +1,5 @@
+// 'use client';
+
 import { motion } from 'framer-motion';
 import { Award, Heart, Leaf, Star } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
@@ -10,10 +12,10 @@ export default function AboutPage() {
         {/* Hero */}
         <section className="container mx-auto px-4 md:px-6 mb-24">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.7 }}
+            <div
+              // initial={{ opacity: 0, x: -30 }}
+              // animate={{ opacity: 1, x: 0 }}
+              // transition={{ duration: 0.7 }}
               className="space-y-6"
             >
               <span className="text-primary tracking-[0.2em] text-sm font-medium uppercase block">Our Story</span>
@@ -52,34 +54,34 @@ To create memorable dining experiences by providing delicious food, professional
               <p className="text-lg text-muted-foreground leading-relaxed">
                 We don&apos;t just cook food; we curate experiences. From the sourcing of authentic spices to the final exquisite plating, every step is guided by a deep respect for our heritage and a passion for hospitality.
               </p>
-            </motion.div>
+            </div>
 
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.7, delay: 0.2 }}
+            <div
+              // initial={{ opacity: 0, scale: 0.95 }}
+              // animate={{ opacity: 1, scale: 1 }}
+              // transition={{ duration: 0.7, delay: 0.2 }}
               className="glass p-2 rounded-[2rem] relative"
             >
               <img src="https://res.cloudinary.com/dw0l7b86h/image/upload/v1782392526/IMG-20230607-WA0006_hydiuh.jpg" alt="Our culinary approach" className="rounded-[1.5rem] w-full aspect-square md:aspect-[4/5] object-cover" />
-            </motion.div>
+            </div>
 
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.7, delay: 0.3 }}
+            <div
+              // initial={{ opacity: 0, scale: 0.95 }}
+              // animate={{ opacity: 1, scale: 1 }}
+              // transition={{ duration: 0.7, delay: 0.3 }}
               className="glass p-2 rounded-[2rem] relative"
             >
               <img src="https://res.cloudinary.com/dw0l7b86h/image/upload/v1781538196/IMG-20260615-WA0031_apsxwp.jpg" alt="mr. benkiz" className="rounded-[1.5rem] w-full aspect-square md:aspect-[4/5] object-cover" />
-            </motion.div>
+            </div>
 
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.7, delay: 0.4 }}
+            <div
+              // initial={{ opacity: 0, scale: 0.95 }}
+              // animate={{ opacity: 1, scale: 1 }}
+              // transition={{ duration: 0.7, delay: 0.4 }}
               className="glass p-2 rounded-[2rem] relative"
             >
               <img src="https://res.cloudinary.com/dw0l7b86h/image/upload/v1781538197/IMG-20260615-WA0032_lndxzt.jpg" alt="mr. benkiz" className="rounded-[1.5rem] w-full aspect-square md:aspect-[4/5] object-cover" />
-            </motion.div>
+            </div>
           </div>
         </section>
 
@@ -99,13 +101,12 @@ To create memorable dining experiences by providing delicious food, professional
                 { icon: Award, title: 'Hospitality', desc: 'Anticipating needs and exceeding expectations at every touchpoint.' },
               ].map((val, i) => {
                 const Icon = val.icon;
-                return (
-                  <motion.div
+                return (<div
                     key={val.title}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: i * 0.1 }}
+                    // initial={{ opacity: 0, y: 20 }}
+                    // whileInView={{ opacity: 1, y: 0 }}
+                    // viewport={{ once: true }}
+                    // transition={{ delay: i * 0.1 }}
                     className="glass-card p-8 rounded-3xl text-center"
                   >
                     <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -113,7 +114,7 @@ To create memorable dining experiences by providing delicious food, professional
                     </div>
                     <h3 className="font-serif text-xl mb-3">{val.title}</h3>
                     <p className="text-sm text-muted-foreground">{val.desc}</p>
-                  </motion.div>
+                  </div>
                 );
               })}
             </div>
@@ -131,12 +132,11 @@ To create memorable dining experiences by providing delicious food, professional
                 { year: '2018', title: 'Expansion', desc: 'Opened our first commercial kitchen and expanded into wedding and mid-sized corporate events.' },
                 { year: '2021', title: 'Recognition', desc: "Awarded 'Best Contemporary African Caterer' by Culinary Excellence Magazine." },
                 { year: '2024', title: 'Today', desc: 'A team of 50+ professionals executing large-scale, high-end events across the region.' },
-              ].map((item, i) => (
-                <motion.div
+              ].map((item, i) => (<div
                   key={item.year}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: '-100px' }}
+                  // initial={{ opacity: 0, y: 20 }}
+                  // whileInView={{ opacity: 1, y: 0 }}
+                  // viewport={{ once: true, margin: '-100px' }}
                   className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active"
                 >
                   <div className="flex items-center justify-center w-10 h-10 rounded-full bg-background border-4 border-primary shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
@@ -148,7 +148,7 @@ To create memorable dining experiences by providing delicious food, professional
                     <h4 className="font-serif text-xl mb-2">{item.title}</h4>
                     <p className="text-muted-foreground text-sm leading-relaxed">{item.desc}</p>
                   </div>
-                </motion.div>
+                </div>
               ))}
             </div>
           </div>
