@@ -4,7 +4,7 @@ import { Navbar } from '@/components/layout/Navbar';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://benkiz.vercel.app"),
+  metadataBase: new URL("https://benkizevents.vercel.app"),
 
   title: "Benkiz Catering Company | Catering Services, Cakes & Events",
 
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
 
   alternates: {
-    canonical: "https://benkiz.vercel.app/",
+    canonical: "https://benkizevents.vercel.app/",
   },
 
   verification: {
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     title: "Benkiz Catering Company | Catering & Cake Services",
     description:
       "Benkiz Events premium catering and cake services for events, celebrations, and special occasions.",
-    url: "https://benkiz.vercel.app/",
+    url: "https://benkizevents.vercel.app/",
     siteName: "Benkiz Events Catering Company",
     type: "website",
     images: [
@@ -130,7 +130,7 @@ export default function RootLayout({
 // import { Navbar } from "@/components/layout/Navbar";
 
 // export const metadata: Metadata = {
-//   metadataBase: new URL("https://benkiz.vercel.app"),
+//   metadataBase: new URL("https://benkizevents.vercel.app"),
 
 //   title: "Benkiz Catering Company | Catering Services, Cakes & Events",
 
@@ -173,7 +173,7 @@ export default function RootLayout({
 //   },
 
 //   alternates: {
-//     canonical: "https://benkiz.vercel.app/",
+//     canonical: "https://benkizevents.vercel.app/",
 //   },
 
 //   verification: {
@@ -194,7 +194,7 @@ export default function RootLayout({
 //     title: "Benkiz Catering Company | Catering & Cake Services",
 //     description:
 //       "Benkiz Events premium catering and cake services for events, celebrations, and special occasions.",
-//     url: "https://benkiz.vercel.app/",
+//     url: "https://benkizevents.vercel.app/",
 //     siteName: "Benkiz Events Catering Company",
 //     type: "website",
 //     images: [
@@ -259,9 +259,9 @@ export default function RootLayout({
 //             "@context": "https://schema.org",
 //             "@type": "LocalBusiness",
 //             name: "Benkiz Catering Company",
-//             url: "https://benkiz.vercel.app",
-//             logo: "https://benkiz.vercel.app/logo.png",
-//             image: "https://benkiz.vercel.app/logo.png",
+//             url: "https://benkizevents.vercel.app",
+//             logo: "https://benkizevents.vercel.app/logo.png",
+//             image: "https://benkizevents.vercel.app/logo.png",
 //             description:
 //               "Professional catering and cake services for events and celebrations.",
 //             sameAs: [
