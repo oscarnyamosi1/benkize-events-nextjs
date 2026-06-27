@@ -56,8 +56,9 @@ export function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex flex-col items-center shrink-0">
-            <span className="font-serif text-2xl font-bold tracking-wider leading-none text-primary">BENKIZ</span>
-            <span className="font-sans text-[10px] tracking-[0.2em] uppercase mt-1 text-foreground/80">Caterers</span>
+          <img src="/logo.webp" className="w-17" alt="Benkiz Bakers/Caterers Logo" />
+            {/* <span className="font-serif text-2xl font-bold tracking-wider leading-none text-primary">BENKIZ</span> */}
+            {/* <span className="font-sans text-[10px] tracking-[0.2em] uppercase mt-1 text-foreground/80">Caterers</span> */}
           </Link>
 
           {/* Desktop Nav */}
