@@ -102,8 +102,9 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         {/* google verifier */}
-          <meta name="google-site-verification" content="aRfE4iLaCug0ZhyX-N5T2XyH5CaF_lh1OpYmCilmhOM" />
-        {/* <meta name="google-site-verification" content="t1mVzWNatI_cGeZO-PpSkX6k2Xf0QmVKKh51Ffu-xAM" /> */}
+        <meta name="google-site-verification" content="t1mVzWNatI_cGeZO-PpSkX6k2Xf0QmVKKh51Ffu-xAM" />
+        <meta name="google-site-verification" content="aRfE4iLaCug0ZhyX-N5T2XyH5CaF_lh1OpYmCilmhOM" />
+        
         <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Space+Mono:wght@400;700&display=swap"
           rel="stylesheet"
