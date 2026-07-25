@@ -36,7 +36,7 @@
 }
 
 .floating-actions.is-expanded .fab-toggle {
-  background: var(--secondary);
+  background: rgb(48, 48, 101)violet;
   box-shadow: 0 4px 20px rgba(27,42,74,0.4);
 }
 
