@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://benkizevents.vercel.app/sitemap.xml
+Sitemap: https://events.benkiz.org/sitemap.xml

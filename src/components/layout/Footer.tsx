@@ -40,7 +40,7 @@ export function Footer() {
               <a href="#" className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-colors">
                 <Twitter className="w-4 h-4" />
               </a>
-              <a href="https://wa.me/254707091550?text=Hello%2C+I+wanna+inquire+about+your+catering+services&utm_source=benkizevents.vercel.app" className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-colors">
+              <a href="https://wa.me/254707091550?text=Hello%2C+I+wanna+inquire+about+your+catering+services&utm_source=events.benkiz.org" className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-colors">
                 <SiWhatsapp className="w-4 h-4" />
               </a>
             </div>

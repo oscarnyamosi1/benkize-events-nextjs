@@ -50,6 +50,7 @@ export default function HeroSection() {
               quality={100}
               sizes="100vw"
               className="object-cover"
+              loadin
             />
           </motion.div>
         </AnimatePresence>
