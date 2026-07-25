@@ -8,7 +8,7 @@ import { useThemeStore } from '@/lib/themes';
 import { Menu, X, Moon, Sun, Monitor, Droplets, Droplet } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
-
+import { ReviewButton } from "@/components/ui/ReviewButton";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -76,6 +76,7 @@ export function Navbar() {
                   {link.name}
                 </Link>
               ))}
+                <ReviewButton variant="navbar" />
             </div>
 
             <div className="flex items-center space-x-4 border-l border-border pl-6">

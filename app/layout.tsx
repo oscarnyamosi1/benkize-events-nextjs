@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Providers } from './providers';
 import { Navbar } from '@/components/layout/Navbar';
 import './globals.css';
+import { ReviewButton } from "@/components/ui/ReviewButton";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://events.benkiz.org"),
@@ -115,6 +116,7 @@ export default function RootLayout({
           <Navbar />
           {children}
         </Providers>
+        <ReviewButton variant="floating" />
       </body>
     </html>
   );
