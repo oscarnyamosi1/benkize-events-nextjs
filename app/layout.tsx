@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Providers } from './providers';
 import { Navbar } from '@/components/layout/Navbar';
 import './globals.css';
-import { ReviewButton } from "@/components/ui/ReviewButton";
+import FloatingActions from "@/components/FloatingActions"
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://events.benkiz.org"),
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "Chef Kizito",
     "Lewis Areri",
     "Oscar Nyamosi",
-    "OMON_DEVs",
+    "Qweewp tech",
   ],
 
   authors: [
@@ -116,7 +116,8 @@ export default function RootLayout({
           <Navbar />
           {children}
         </Providers>
-        <ReviewButton variant="floating" />
+
+        <FloatingActions />
       </body>
     </html>
   );
