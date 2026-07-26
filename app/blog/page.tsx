@@ -25,17 +25,17 @@ export const metadata: Metadata = {
 
 export const revalidate = 604800; // 7 days
 
-// Add the new categories here
 const categories = ["All", "Corporate Events", "Weddings", "Venues", "Event Tech", "Catering", "Event Organizers"];
 
 interface PageProps {
-  searchParams: {
+  searchParams: Promise<{
     category?: string;
-  };
+  }>;
 }
 
-export default function BlogIndexPage({ searchParams }: PageProps) {
-  const activeCategory = searchParams.category || "All";
+export default async function BlogIndexPage({ searchParams }: PageProps) {
+  const { category } = await searchParams; // ✅ Await the Promise
+  const activeCategory = category || "All";
 
   const filteredPosts =
     activeCategory === "All"
@@ -161,6 +161,7 @@ export default function BlogIndexPage({ searchParams }: PageProps) {
                       alt={post.title}
                       fill
                       style={{ objectFit: "cover" }}
+                      unoptimized={post.image.startsWith("https")}
                     />
                   </div>
                   <div
