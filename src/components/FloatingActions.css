@@ -16,8 +16,8 @@
   gap: 8px;
   padding: 13px 18px;
   border-radius: 50px;
-  background: rgb(48, 48, 101)violet;
-  color: #fff;
+  background-color: rgb(48, 48, 101)violet;
+  /* color: #fff; */
   border: none;
   font-size: 0.8rem;
   font-weight: 700;
@@ -84,7 +84,7 @@
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.04em;
-  color: #fff;
+  /* color: #fff; */
   text-decoration: none;
   box-shadow: 0 4px 16px rgba(0,0,0,0.2);
   transition: all 0.2s cubic-bezier(0.4,0,0.2,1);

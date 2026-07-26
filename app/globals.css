@@ -278,3 +278,56 @@
 .loader-bar { width: 200px; height: 3px; background: var(--border); border-radius: 2px; overflow: hidden; }
 .loader-fill { height: 100%; background: linear-gradient(90deg, #1fe21152, #1fe211); animation: loadFill 2.2s ease forwards; }
 @keyframes loadFill { from{width:0} to{width:100%} }
+
+
+
+/* Blog card hover (already provided) */
+.blog-card-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border-color: var(--color-accent);
+}
+
+/* Back link hover */
+.back-link:hover {
+  color: var(--color-foreground);
+}
+
+/* Blog content styling */
+.blog-content h2 {
+  font-family: var(--font-headings);
+  font-size: 28px;
+  font-weight: 700;
+  margin: 2rem 0 1rem;
+  color: var(--color-foreground);
+}
+
+.blog-content p {
+  margin-bottom: 1.2rem;
+}
+
+.blog-content ul,
+.blog-content ol {
+  margin: 1rem 0 1.5rem 1.5rem;
+}
+
+.blog-content li {
+  margin-bottom: 0.5rem;
+}
+
+.blog-content a {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+
+/* for blog interractivity */
+/* Back link hover */
+.back-link:hover {
+  color: var(--color-foreground);
+}
+
+/* Company link hover – pure CSS, no JS */
+.company-link:hover {
+  border-bottom-color: var(--color-accent) !important;
+}

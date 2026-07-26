@@ -8,11 +8,12 @@ export default function FloatingActions() {
 
   return (
     <div className={`floating-actions${expanded ? " is-expanded" : ""}`}>
-      <button
+      <span
         className="fab-toggle"
         onClick={() => setExpanded((prev) => !prev)}
         aria-label={expanded ? "Close menu" : "Open contact menu"}
         aria-expanded={expanded}
+      
       >
         <span className="fab-toggle-icon">
           {expanded ? (
@@ -27,7 +28,7 @@ export default function FloatingActions() {
           )}
         </span>
         <span className="fab-toggle-hint">{expanded ? "" : "Contact"}</span>
-      </button>
+      </span>
 
       <div className="fab-menu" aria-hidden={!expanded}>
         <a
