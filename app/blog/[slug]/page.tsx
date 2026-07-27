@@ -5,10 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Calendar, MapPin, Tag, Users, User, Phone, Link2 } from "lucide-react";
 
-// Force static generation (SSG) – no client‑side data fetching
 export const dynamic = "force-static";
-// Revalidate weekly – keeps the page fresh with ISR
-export const revalidate = 604800; // 7 days
+export const revalidate = 604800;
 
 interface Props {
   params: Promise<{
@@ -23,7 +21,7 @@ export async function generateStaticParams() {
 }
 
 export default async function BlogPostPage({ params }: Props) {
-  const { slug } = await params; // ✅ Await the params Promise
+  const { slug } = await params;
   const post = blogPosts.find((p) => p.slug === slug);
 
   if (!post) {
@@ -36,11 +34,11 @@ export default async function BlogPostPage({ params }: Props) {
         style={{
           maxWidth: 820,
           margin: "0 auto",
-          padding: "3rem 1.5rem 4rem",
+          padding: "100px 1.5rem 4rem", 
         }}
       >
         {/* Back button */}
-        <a
+        <Link
           href="/blog"
           className="back-link"
           style={{
@@ -52,11 +50,11 @@ export default async function BlogPostPage({ params }: Props) {
             textDecoration: "none",
             marginBottom: "2rem",
             transition: "color 0.2s",
-            cursor:"pointer"
+            cursor: "pointer",
           }}
         >
           <ArrowLeft size={20} /> Back to all posts
-        </a>
+        </Link>
 
         {/* Header */}
         <div style={{ marginBottom: "2rem" }}>
