@@ -126,7 +126,7 @@ export const blogPosts: BlogPost[] = [
       <p>Organising a successful event in Kisii requires a team that can handle everything – from planning and coordination to on‑the‑day execution. We’ve compiled a list of the top event organisers in the region, drawing from real customer reviews, ratings, and service quality. Here’s our definitive ranking.</p>
 
       <h2>1. Benkiz Events / Benkiz Bakers</h2>
-      <p><strong>Rating:</strong> ⭐ 5.0 (2 reviews) – <em>"The best there is, easy to communicate and work with."</em></p>
+      <p><strong>Rating:</strong> ⭐ 5.0 (27 reviews) – <em>"The best there is, easy to communicate and work with."</em></p>
       <p><strong>Contact:</strong> 0707 091550</p>
       <p><strong>Address:</strong> Kisii</p>
       <p>Benkiz Events is the undisputed #1 choice for full‑service event management in Kisii. From weddings and corporate functions to private parties, they handle every detail – venue sourcing, décor, catering (they are also top‑tier bakers), entertainment, and logistics – with professionalism and creativity. Their open communication and flexibility make them the go‑to for stress‑free planning.</p>
