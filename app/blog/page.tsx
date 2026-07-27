@@ -34,7 +34,7 @@ interface PageProps {
 }
 
 export default async function BlogIndexPage({ searchParams }: PageProps) {
-  const { category } = await searchParams; // ✅ Await the Promise
+  const { category } = await searchParams; 
   const activeCategory = category || "All";
 
   const filteredPosts =
