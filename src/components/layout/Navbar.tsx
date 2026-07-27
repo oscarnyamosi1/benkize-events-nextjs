@@ -36,9 +36,9 @@ export function Navbar() {
   ];
 
   const themeOptions = [
+    { id: 'light', icon: Droplets },
     { id: 'dark', icon: Moon },
     { id: 'warm', icon: Sun },
-    { id: 'light', icon: Droplets },
     { id: 'navy-blue', icon: Droplet },
     { id: 'mac-os', icon: Monitor },
   ] as const;
