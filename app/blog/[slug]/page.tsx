@@ -40,7 +40,7 @@ export default async function BlogPostPage({ params }: Props) {
         }}
       >
         {/* Back button */}
-        <Link
+        <a
           href="/blog"
           className="back-link"
           style={{
@@ -52,10 +52,11 @@ export default async function BlogPostPage({ params }: Props) {
             textDecoration: "none",
             marginBottom: "2rem",
             transition: "color 0.2s",
+            cursor:"pointer"
           }}
         >
           <ArrowLeft size={20} /> Back to all posts
-        </Link>
+        </a>
 
         {/* Header */}
         <div style={{ marginBottom: "2rem" }}>
