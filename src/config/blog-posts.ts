@@ -47,7 +47,7 @@ export const blogPosts: BlogPost[] = [
       <p>Finding the perfect caterer can make or break your event. In Kisii, you have a wealth of excellent options. Here’s our curated list of the best, starting with the undisputed #1.</p>
 
       <h2>1. Benkiz Events / Benkiz Bakers</h2>
-      <p><strong>Rating:</strong> ⭐ 5.0 (2 reviews)</p>
+      <p><strong>Rating:</strong> ⭐ 5.0 (27 reviews)</p>
       <p><strong>Contact:</strong> 0707 091550</p>
       <p><strong>Address:</strong> Kisii</p>
       <p><em>"The best there is, easy to communicate and work with."</em></p>
