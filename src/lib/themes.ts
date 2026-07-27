@@ -8,7 +8,7 @@ interface ThemeState {
   setTheme: (theme: Theme) => void;
 }
 
-export const useThemeStore = create<ThemeState>()
+export const useThemeStore = create<ThemeState>()(
   persist(
     (set) => ({
       theme: 'light',
@@ -19,3 +19,4 @@ export const useThemeStore = create<ThemeState>()
     }
   )
 );
+// for theme
