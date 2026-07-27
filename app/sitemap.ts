@@ -27,7 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: 'https://events.benkiz.org/service',
+      url: 'https://events.benkiz.org/services',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
