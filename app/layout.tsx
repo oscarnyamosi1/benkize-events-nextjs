@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import { Providers } from "./providers";
 import { Navbar } from "@/components/layout/Navbar";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import FloatingActions from "@/components/FloatingActions";
 import "./globals.css";
 
@@ -173,6 +174,7 @@ export default function RootLayout({
       </head>
 
       <body>
+      <GoogleAnalytics gaId="G-K642HTJ8X5" />
         <Providers>
           <Navbar />
           {children}
