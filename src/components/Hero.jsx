@@ -8,9 +8,6 @@ import { ArrowRight, Play, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const CAROUSEL_IMAGES = [
-  "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781538225/IMG-20260615-WA0089_djy9qo.jpg",
-  "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781538228/IMG-20260615-WA0087_unb6ju.jpg",
-  "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393572/IMG-20260617-WA0021_u8easr.jpg",
   "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781538218/IMG-20260615-WA0088_wgocmu.jpg",
   "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781538216/IMG-20260615-WA0067_lvqnuv.jpg",
   "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781538214/IMG-20260615-WA0077_qq0vug.jpg",
@@ -18,6 +15,7 @@ const CAROUSEL_IMAGES = [
   "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781538206/IMG-20260615-WA0065_yv0sht.jpg",
   "https://res.cloudinary.com/dw0l7b86h/image/upload/v1781538206/IMG-20260615-WA0060_osr7tp.jpg"
 ];
+
 
 export default function HeroSection() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

@@ -6,6 +6,7 @@ import { Layout } from "@/components/layout/Layout";
 import { SERVICES, MENU_ITEMS } from "@/lib/mockData";
 import Hero from "@/components/Hero";
 import { blogPosts } from "@/config/blog-posts";
+import CakeSectionHome from "@/components/CakeSectionHome";
 
 // Helper: get latest 3 posts sorted by date
 const getLatestPosts = () => {
@@ -130,6 +131,9 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+        {/* Cake Section */}
+        <CakeSectionHome />
 
         {/* Blog Section – Fully SSR, no JavaScript animations */}
         <section className="py-24 relative overflow-hidden">

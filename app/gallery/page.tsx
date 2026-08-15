@@ -11,9 +11,6 @@ const CLOUDINARY_URL = 'https://res.cloudinary.com/dw0l7b86h/image/upload';
 const CATEGORIES = ['All', 'Events', 'Food', 'Venues'];
 
 const IMAGES = [
-  { id: 1, src: 'https://res.cloudinary.com/dw0l7b86h/image/upload/v1781538225/IMG-20260615-WA0089_djy9qo.jpg', category: 'Events', title: 'Gala Dinner Setup' },
-  { id: 2, src: `${CLOUDINARY_URL}/wedding_qoa5tx.jpg`, category: 'Venues', title: 'Outdoor Reception' },
-  { id: 3, src: `${CLOUDINARY_URL}/corporate_fjolag.jpg`, category: 'Events', title: 'Corporate Buffet' },
   { id: 4, src: `${CLOUDINARY_URL}/dish-stew_lmh6cd.jpg`, category: 'Food', title: 'Slow Braised Stew' },
   { id: 5, src: `${CLOUDINARY_URL}/unnamed_4_tuk9az.jpg`, category: 'Food', title: 'Appetizer' },
   { id: 6, src: `${CLOUDINARY_URL}/unnamed_3_gfoeca.jpg`, category: 'Venues', title: 'Intimate Dining' },
@@ -37,11 +34,6 @@ const IMAGES = [
   { id: 24, src: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393588/IMG-20260617-WA0014_vpmvn4.jpg" ,category:'food',title:''},
   { id: 25, src: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393582/IMG-20260617-WA0015_qgetca.jpg" ,category:'food',title:''},
   { id: 26, src: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393581/IMG-20260617-WA0017_efsmxz.jpg" ,category:'food',title:''},
-  { id: 27, src: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393581/IMG-20260617-WA0018_ph7cve.jpg" ,category:'food',title:''},
-  { id: 28, src: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393580/IMG-20260617-WA0019_vbxw0d.jpg" ,category:'food',title:''},
-  { id: 29, src: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393574/IMG-20260617-WA0020_zdzhoz.jpg" ,category:'food',title:''},
-  { id: 30, src: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393572/IMG-20260617-WA0021_u8easr.jpg" ,category:'food',title:''},
-  { id: 31, src: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393570/IMG-20260617-WA0022_g8vdty.jpg" ,category:'food',title:''},
   { id: 32, src: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393569/IMG-20260617-WA0023_dvcqxc.jpg" ,category:'food',title:''},
   { id: 33, src: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393564/IMG-20260617-WA0024_c7e7xj.jpg" ,category:'food',title:''},
   { id: 34, src: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393563/IMG-20260617-WA0026_uaiqr5.jpg" ,category:'food',title:''},
@@ -49,6 +41,11 @@ const IMAGES = [
   { id: 36, src: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393562/IMG-20260617-WA0027_bkfj2y.jpg" ,category:'food',title:''},
   { id: 37, src: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393562/IMG-20260617-WA0025_pweuxo.jpg" ,category:'food',title:''},
   { id: 38, src: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393561/IMG-20260624-WA0007_d1u3xh.jpg" ,category:'food',title:''},
+  { id: 27, src: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393581/IMG-20260617-WA0018_ph7cve.jpg" ,category:'food',title:''},
+  { id: 28, src: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393580/IMG-20260617-WA0019_vbxw0d.jpg" ,category:'food',title:''},
+  { id: 29, src: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393574/IMG-20260617-WA0020_zdzhoz.jpg" ,category:'food',title:''},
+  { id: 30, src: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393572/IMG-20260617-WA0021_u8easr.jpg" ,category:'food',title:''},
+  { id: 31, src: "https://res.cloudinary.com/dw0l7b86h/image/upload/v1782393570/IMG-20260617-WA0022_g8vdty.jpg" ,category:'food',title:''},
 
 ];
 
