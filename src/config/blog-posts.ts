@@ -46,7 +46,7 @@ export const blogPosts: BlogPost[] = [
       phone: "+254795404843",
     },
     image:
-      "https://res.cloudinary.com/dw0l7b86h/image/upload/v1786880436/sheryl_Caramel_Piped_21st_Birthday_Cake_fxw0sp.png",
+      "https://res.cloudinary.com/dw0l7b86h/image/upload/v1787043252/benkiz_images/ipymc9girqg9vlxqollu.png",
     content: `
       <p>Finding the perfect cake in Kisii can be overwhelming with so many options available. Whether you're planning a wedding, birthday, corporate event, or any special celebration, we've done the homework for you. Here's our comprehensive ranking of the best bakeries in Kisii, drawing from real customer reviews, ratings, and service quality – with <strong>Benkiz Bakers</strong> taking the crown for quality, affordability, and service excellence.</p>
 
@@ -62,7 +62,7 @@ export const blogPosts: BlogPost[] = [
       <p><strong>Rating:</strong> <FaStar /> 5.0 (5 reviews) – <em>"Superb Cakes and Pizza. Friendly staff. Sure to order again!!"</em></p>
       <p><strong>Contact:</strong> <FaPhoneAlt /> 0707 091550</p>
       <p><strong>Address:</strong> <FaMapMarkerAlt /> Kisii</p>
-      <p><strong>Hours:</strong> <FaClock /> Opens 12 am Mon</p>
+      <p><strong>Hours:</strong> <FaClock /> Opens  Mon - Sat</p>
 
       <p>When it comes to cakes in Kisii, <strong>Benkiz Bakers</strong> stands head and shoulders above the rest. Whether you're planning a wedding, birthday, corporate event, or any special occasion, Benkiz delivers <strong>fresh, delicious, and beautifully decorated cakes</strong> that leave everyone asking for more.</p>
 
@@ -84,7 +84,7 @@ export const blogPosts: BlogPost[] = [
       <p><strong>Rating:</strong> <FaStar /> 4.7 (59 reviews) – <em>"Top notch services delicious cakes good bakery around <FaSmile />"</em></p>
       <p><strong>Contact:</strong> <FaPhoneAlt /> 0705 661588</p>
       <p><strong>Address:</strong> <FaMapMarkerAlt /> Umoja Elimu Centre at the entrance near the lift <FaElevator /></p>
-      <p><strong>Hours:</strong> <FaClock /> Closed · Opens 8 am Mon</p>
+      <p><strong>Hours:</strong> <FaClock /> Opens 8 am Mon</p>
       <p><strong>Price Range:</strong> <FaMoneyBillWave /> Ksh 500–3,000</p>
 
       <p>Katie's Delish is a beloved name in Kisii's bakery scene, and with 59 reviews averaging 4.7 stars, it's easy to see why. Their cakes are consistently praised for being fresh, tasty, and beautifully presented. Located conveniently at Umoja Elimu Centre, they're a reliable go-to for everyday treats and special celebrations alike.</p>
@@ -92,7 +92,7 @@ export const blogPosts: BlogPost[] = [
       <h2>3. Cakes by Cess</h2>
       <p><strong>Rating:</strong> <FaStar /> 4.8 (4 reviews)</p>
       <p><strong>Address:</strong> <FaMapMarkerAlt /> Stadium Road</p>
-      <p><strong>Hours:</strong> <FaClock /> Closed · Opens 7 am Mon</p>
+      <p><strong>Hours:</strong> <FaClock /> Opens 7 am Mon</p>
       <p><strong>Services:</strong> <FaTruck /> Delivery</p>
 
       <p>Cakes by Cess may have fewer reviews, but their 4.8 rating speaks volumes. They offer delivery services, making them a convenient choice for those who want quality cakes brought straight to their door.</p>
@@ -115,7 +115,7 @@ export const blogPosts: BlogPost[] = [
       <h2>5. Ann's Delights Cakes</h2>
       <p><strong>Rating:</strong> <FaStar /> 4.5 (28 reviews) – <em>"Tasty cakes prepared in very hygienic environment"</em></p>
       <p><strong>Address:</strong> <FaMapMarkerAlt /> 327-40200</p>
-      <p><strong>Hours:</strong> <FaClock /> Closed · Opens 9 am Mon</p>
+      <p><strong>Hours:</strong> <FaClock /> Opens 9 am</p>
 
       <p>Ann's Delights has earned a solid reputation for <strong>hygienic preparation</strong> and consistently tasty cakes. With 28 reviews, they're a trusted name for birthday parties, weddings, anniversaries, and corporate events.</p>
 
@@ -143,7 +143,7 @@ export const blogPosts: BlogPost[] = [
       <h2>8. Bakers Delight</h2>
       <p><strong>Rating:</strong> <FaStar /> 5.0 (2 reviews)</p>
       <p><strong>Address:</strong> <FaMapMarkerAlt /> 8QGC+CVV</p>
-      <p><strong>Hours:</strong> <FaClock /> Closed · Opens 8:30 am Mon</p>
+      <p><strong>Hours:</strong> <FaClock /> Opens 8:30 am Mon</p>
 
       <p>Bakers Delight is another newcomer with a perfect score, offering a range of cakes for every occasion.</p>
 
@@ -157,7 +157,7 @@ export const blogPosts: BlogPost[] = [
       <h2>10. Lyla Cakes Parlour Kisii (The Cake Parlour)</h2>
       <p><strong>Rating:</strong> No reviews yet</p>
       <p><strong>Address:</strong> <FaMapMarkerAlt /> Hospital Road</p>
-      <p><strong>Hours:</strong> <FaClock /> Closed · Opens 7 am Mon</p>
+      <p><strong>Hours:</strong> <FaClock /> Opens 7 am Mon</p>
       <p><strong>Services:</strong> <FaConciergeBell /> On-site services · <FaCalendarAlt /> Online appointments</p>
 
       <p>A newer establishment offering online appointments – perfect for those who like to plan ahead.</p>
@@ -165,7 +165,7 @@ export const blogPosts: BlogPost[] = [
       <h2>11. Royal slice bakery limited</h2>
       <p><strong>Rating:</strong> No reviews yet</p>
       <p><strong>Address:</strong> <FaMapMarkerAlt /> Kisii</p>
-      <p><strong>Hours:</strong> <FaClock /> Closed · Opens 6 am Mon</p>
+      <p><strong>Hours:</strong> <FaClock /> Opens 6 am Mon</p>
 
       <p>Royal Slice is an early bird's dream, opening at 6 am for those needing fresh cakes to start their day.</p>
 
